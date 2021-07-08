@@ -13,7 +13,7 @@ javac Transliterate.java
 Usage:
 
 ```
-echo "<Text in source language>" | java Transliterate KAN HIN
+echo "<Text in source language>" | java Transliterate <SRC_LANG_CODE> <DST_LANG_CODE>
 ```
 
 Example:
