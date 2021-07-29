@@ -38,6 +38,7 @@ public class Transliterate {
 	public static void main(String[] args) throws IOException {
 		map = new HashMap<>();
 		map.put("HIN", HIN_UNICODE_START);
+		map.put("TAM", TAM_UNICODE_START);
 		map.put("KAN", KAN_UNICODE_START);
 		map.put("BEN", BEN_UNICODE_START);
 
