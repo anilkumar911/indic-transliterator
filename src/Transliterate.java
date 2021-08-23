@@ -10,6 +10,7 @@ public class Transliterate {
 	static final int KAN_UNICODE_START = 0x0C80;
 	static final int TAM_UNICODE_START = 0x0B80;
 	static final int BEN_UNICODE_START = 0x0980;
+	static final int TEL_UNICODE_START = 0x0C00;
 
 	static HashMap<String, Integer> map;
 
@@ -41,6 +42,7 @@ public class Transliterate {
 		map.put("TAM", TAM_UNICODE_START);
 		map.put("KAN", KAN_UNICODE_START);
 		map.put("BEN", BEN_UNICODE_START);
+		map.put("TEL", TEL_UNICODE_START);
 
 		int fromLanguage = map.get(args[0]);
 		int toLanguage = map.get(args[1]);
