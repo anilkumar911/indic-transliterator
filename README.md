@@ -21,6 +21,13 @@ Example:
 ```
 echo "ಮುಖ್ಯ ಪುಟ" | java Transliterate KAN HIN
 ```
+
+or
+
+```
+cat kan.txt | java Transliterate KAN HIN > tam.txt
+```
+
 ## TODO
 Add support for all Indian languages. For this, just add the first unicode value of each languiage with 3 letter code to hashmap.
 
